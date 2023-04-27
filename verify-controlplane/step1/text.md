@@ -26,7 +26,7 @@ containers:
     - kube-apiserver
     - --profiling=false # ADD
 ...
-    image: k8s.gcr.io/kube-apiserver:v1.22.2
+    image: registry.k8s.io/kube-apiserver:v1.22.2
 ...
 ```
 

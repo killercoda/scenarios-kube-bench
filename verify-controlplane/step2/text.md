@@ -26,7 +26,7 @@ kube-bench run --targets master --check 1.3.2
     - kube-controller-manager
     - --profiling=false # ADD
 ...
-    image: k8s.gcr.io/kube-controller-manager:v1.22.2
+    image: registry.k8s.io/kube-controller-manager:v1.22.2
 ...
 ```
 
